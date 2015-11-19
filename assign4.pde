@@ -352,8 +352,8 @@ for (int i=0; i<5 ;  i++ ){
 image(enemy,enemy3[p][0],enemy3[p][1]);
 
   if( enemy3[p][0]-45 <= x && enemy3[p][0]+60 >= x && enemy3[p][1]+45 >= y && enemy3[p][1]-45 <= y ){
-    
-   image(images[p], enemy3[p][0], enemy3[p][1]);
+    for(int ii=0; ii < 5; ii++){
+   image(images[ii], enemy3[p][0], enemy3[p][1]);
    enemy3[p][1]=640;
    g-=20;
   }
