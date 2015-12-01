@@ -82,7 +82,7 @@ void setup(){
   for (int i=0; i<5; i++){
     images[i] = loadImage("img/flame" + (i+1) + ".png");
   }
-  frameRate(1000);
+  frameRate(10000);
 }
 void draw(){
   image(start2,0,0);
